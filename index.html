@@ -8,51 +8,19 @@
     <link 
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"
     >
-
-    <style>
-        .rounded_img{
-            width:80%;
-            border-radius: 10%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            padding: 1em;
-            margin-bottom: 1em;
-        }
-    </style>
+    <link rel="stylesheet" href="new.css">
 
     <!-- boostrap javascript -->
     <!-- Java-script -->
 <script 
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
 </script>
-</script>
-    <style>
+<style>
     /*фон*/
-        body {
-    background: url(jpg/fon1.jpg);
+    body {
+        background: url(jpg/fon1.jpg);
     }
-
-    /*низ сайта*/
-    footer {
-        padding: 150px 100px;
-        background: #666;
-        color: white;
-      }
-
-    /*Увеличиние картинки*/
-    .scale {
-        display: inline-block; /* Строчно-блочный элемент */
-        overflow: hidden; /* Скрываем всё за контуром */
-    }
-   .scale img {
-        transition: 1s; /* Время эффекта */
-        display: block; /* Убираем небольшой отступ снизу */
-    }
-    .scale img:hover {
-        transform: scale(1.2); /* Увеличиваем масштаб */
-    }
-
-
-    </style>
+</style>
 </head>
 <body>
 
@@ -89,13 +57,26 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundl
                        <a class="nav-link" aria-current="page" href="contact.html">Контакты</a>
                    </li>
                 </ul>
-           </div>
-           </div>
-           <a href="https://www.avito.ru/user/fbdef049383986d4e09cbade25fdaf50/profile?src=sharing" target="_blank"><img src="png/avito.png" width="110%"></a>
+            </div>
+            </div>
+            <!-- avito -->
+            <a href="https://www.avito.ru/user/fbdef049383986d4e09cbade25fdaf50/profile?src=sharing" target="_blank">
+                <img src="png/avito.png" class="img-responsive careerpage">
             </a>
+            <!-- Whatsapp -->
             <a title="Whatsapp" href="https://api.whatsapp.com/send/?phone=79377774374&text=Здравствуйте" target="_blank">
-                <img src="png/wa3.png" alt="Написать в Whatsapp" width="10%" />
-            </a>
+                <img src="png/wa3.png" alt="Написать в Whatsapp" width="15%" class="img-responsive careerpage"/>
+            </a>  
+            <div class="row">
+                <!-- avito -->
+                <a href="https://www.avito.ru/user/fbdef049383986d4e09cbade25fdaf50/profile?src=sharing" target="_blank">
+                    <img src="png/avito.png" class="img-responsive careerpage mobile">
+                </a>
+                <!-- Whatsapp -->
+                <a title="Whatsapp" href="https://api.whatsapp.com/send/?phone=79377774374&text=Здравствуйте" target="_blank">
+                    <img src="png/wa3.png" alt="Написать в Whatsapp" width="23%" class="img-responsive careerpage mobile"/>
+                </a>   
+            </div>
         </nav>
     </nav>
     <center>
@@ -106,17 +87,15 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundl
     <br>
     <h1 align="center">ПО ИНДИВИДУАЛЬНЫМ РАЗМЕРАМ</h1>
     <br>
-    <h1 align="center">С МИЛЛИМЕТРОВОЙ ТОЧНОСТЬЮ</h1>
-    <br>
     <center>
         <img src="png/free.png" style="грузовик" width="10%">
-        <p1>Бесплатная Доставка</p1>
+        <p1>Доставка</p1>
 
-        <img src="png/gift.png" style="подарок" width="10%">
-        <p1>Сборка в подарок</p1>
+        <img src="png/gift.png" style="коробка" width="10%">
+        <p1>Сборка</p1>
 
-        <img src="png/lightning.png" style="подарок" width="10%">
-        <p1>7-10 ДНЕЙ СРОК ИЗГОТОВЛЕНИЯ</p1>
+        <img src="png/lightning.png" style="молния" width="9%">
+        <p1>до 35 рабочих дней изготовление</p1>
     </center>
     <center>
         <!-- card -->
@@ -124,7 +103,7 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundl
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="col">
                     <div class="card">
-                        <div class="scale"><a href="kitchen.html"><img src="kuxna1/kuxna(10)1.jpg" class="card-img-top" alt="Кухня">
+                        <div class="scale"><a href="kitchen.html"><img src="etc/k1(6).jpg" class="card-img-top" alt="Кухня">
                         <div class="card-body"></div></a>
                             <h5 class="card-title">Кухни на заказ</h5>
                             <a href="kitchen.html" 
@@ -190,14 +169,22 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundl
 
     <!-- company -->
     <footer>
-      <a class="navbar-brand p-0" href="zakaz.html">
-               <img src="png/logo.png" alt="Logo" width="20%"/>
-      </a>
-      <p>Компания ®Мебель Плюс все права защищены</p>
-      <br>
-      <p>Производство г. Зеленодольск</p>
-      <br>
-      <p>Офис г. Зеленодольск</p>
+        <!-- mobile -->
+        <div class="row">
+            <!-- logo -->
+            <a class="navbar-brand p-0" href="zakaz.html">
+                <img src="png/logo.png" class="img-responsive careerpage mobile" width="80%">
+            </a>  
+        </div>
+        <!-- pc -->
+        <a class="navbar-brand p-0" href="zakaz.html">
+            <img src="png/logo.png" alt="Logo" width="20%" class="img-responsive careerpage"/>
+        </a>
+        <p>Компания &copy; Мебель Плюс все права защищены</p>
+        <br>
+        <p>Производство г. Зеленодольск</p>
+        <br>
+        <p>Офис г. Зеленодольск</p>
     </footer>
 
 

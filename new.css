@@ -1,0 +1,42 @@
+/* for android */
+.img-responsive.mobile {
+  display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .img-responsive {
+    display: none;
+  }
+  .img-responsive.mobile {
+    display: block;
+  }
+}
+
+.rounded_img{
+    width:80%;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+
+/*низ сайта*/
+    footer {
+    padding: 150px 100px;
+    background: #666;
+    color: white;
+}
+
+/*Увеличиние картинки*/
+.scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+}
+.scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
