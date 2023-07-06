@@ -40,3 +40,9 @@
 .scale img:hover {
     transform: scale(1.2); /* Увеличиваем масштаб */
 }
+
+img{
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+}
